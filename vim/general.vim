@@ -7,7 +7,6 @@ if !has('nvim')
     set autoindent
     set backspace=indent,eol,start
     set history=10000
-    set encoding="utf-8"
     set incsearch
     set smarttab
 endif
