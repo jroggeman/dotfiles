@@ -9,4 +9,4 @@ ln -sf ~/.dotfiles/vim/language.vim ~/.vim/language.vim
 ln -sf ~/.dotfiles/vim/plugins.vim ~/.vim/plugins.vim
 ln -sf ~/.dotfiles/vim/visual.vim ~/.vim/visual.vim
 
-ln -sf ~/.vim/ ~/nvim
+ln -sf ~/.vim/ ~/.config/nvim
