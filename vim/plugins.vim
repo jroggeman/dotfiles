@@ -20,6 +20,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-rails'
 Plugin 'majutsushi/tagbar'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'rust-lang/rust.vim'
 
 " ./Plugins
 
