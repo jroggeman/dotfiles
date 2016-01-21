@@ -1,28 +1,26 @@
 set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+"call vundle#begin()
+call plug#begin()
 
 " Plugins 
-Plugin 'gmarik/Vundle.vim'
+" Plug 'gmarik/Vundle.vim'
+Plug 'kien/ctrlp.vim'
+Plug 'Yggdroot/indentLine'
+Plug 'scrooloose/nerdtree'
+Plug 'altercation/vim-colors-solarized'
+Plug 'Lokaltog/vim-easymotion'
+Plug 'tpope/vim-fugitive'
+Plug 'jeffkreeftmeijer/vim-numbertoggle'
+Plug 'tpope/vim-surround'
+Plug 'fatih/vim-go'
+Plug 'tpope/vim-rbenv'
+Plug 'bling/vim-airline'
+Plug 'edkolev/tmuxline.vim'
+Plug 'scrooloose/syntastic'
+Plug 'tpope/vim-rails'
+Plug 'majutsushi/tagbar'
+Plug 'plasticboy/vim-markdown'
+Plug 'rust-lang/rust.vim'
 
-Plugin 'kien/ctrlp.vim'
-Plugin 'Yggdroot/indentLine'
-Plugin 'scrooloose/nerdtree'
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'Lokaltog/vim-easymotion'
-Plugin 'tpope/vim-fugitive'
-Plugin 'jeffkreeftmeijer/vim-numbertoggle'
-Plugin 'tpope/vim-surround'
-Plugin 'fatih/vim-go'
-Plugin 'tpope/vim-rbenv'
-Plugin 'bling/vim-airline'
-Plugin 'edkolev/tmuxline.vim'
-Plugin 'scrooloose/syntastic'
-Plugin 'tpope/vim-rails'
-Plugin 'majutsushi/tagbar'
-Plugin 'plasticboy/vim-markdown'
-Plugin 'rust-lang/rust.vim'
-
-" ./Plugins
-
-call vundle#end()
+call plug#end()
 filetype plugin indent on
