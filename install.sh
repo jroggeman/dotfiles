@@ -1,3 +1,7 @@
+# Setup Vundle
+mkdir -p ~/.vim/bundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
 # Link init and all other files
 ln -sf ~/.dotfiles/vim/init.vim ~/.vimrc
 ln -sf ~/.vimrc ~/nvim/init.vim
