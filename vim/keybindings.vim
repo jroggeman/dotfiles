@@ -28,3 +28,5 @@ nnoremap <leader>eb :edit ~/.zshrc<CR>
 
 " Easy access to paste
 set pastetoggle=<F2>
+
+nnoremap <C-l> :nohlsearch<CR><C-l>

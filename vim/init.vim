@@ -15,4 +15,3 @@ runtime functions.vim
 runtime visual.vim
 
 runtime language.vim
-

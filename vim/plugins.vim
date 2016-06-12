@@ -32,3 +32,5 @@ Plug 'rust-lang/rust.vim'
 
 call plug#end()
 filetype plugin indent on
+
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
