@@ -1,6 +1,10 @@
 " ==================================================== "
 "                    Keybindings
 " ==================================================== "
+
+" Add space as additional leader key
+nmap <Space> ,
+
 " Easy vimrc editing
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
