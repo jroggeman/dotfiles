@@ -11,6 +11,15 @@ if !has('nvim')
     set smarttab
 endif
 
+" Setup any local settings
+if filereadable(expand('~/local/.vimrc'))
+    source ~/local/.vimrc
+endif
+
+if exists('g:loaded_vimrc')
+    finish
+endif
+
 " Hide buffers rather than close them
 set hidden
 
@@ -52,3 +61,4 @@ set noswapfile
 
 " Ignore swap and backup files
 set wildignore=*.swp,*.bak
+

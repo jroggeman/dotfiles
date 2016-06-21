@@ -19,11 +19,13 @@ else
     au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -)
 endif
 
-" Coloring
-colorscheme solarized
+if !exists('g:minimal_colors')
+    " Coloring
+    colorscheme solarized
 
-" Use pretty fonts in airline
-let g:airline_powerline_fonts = 1
+    " Use pretty fonts in airline
+    let g:airline_powerline_fonts = 1
+endif
 
 " Show trailing spaces and tabs as characters (Thanks Alex!)
 set list listchars=tab:»·,trail:·
