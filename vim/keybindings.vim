@@ -34,3 +34,6 @@ nnoremap <leader>eb :edit ~/.zshrc<CR>
 set pastetoggle=<F2>
 
 nnoremap <C-l> :nohlsearch<CR><C-l>
+
+" Easy test run
+nnoremap <leader>r :Rake<CR>
